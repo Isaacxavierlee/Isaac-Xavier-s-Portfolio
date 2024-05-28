@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLocationArrow } from 'react-icons/fa';
+import { FaCode, FaLocationArrow, FaProjectDiagram } from 'react-icons/fa';
 import { Spotlight } from './ui/Spotlight';
 import { TextGenerateEffect } from './ui/TextGenerateEffect';
 import MagicButton from './ui/MagicButton';
@@ -57,7 +57,7 @@ const Hero = () => {
         <a href="#about">
           <MagicButton
             title="View My Projects"
-            icon={<FaLocationArrow />}
+            icon={<FaCode />}
             position="right"
           />
         </a>
