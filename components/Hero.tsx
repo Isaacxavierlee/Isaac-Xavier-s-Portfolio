@@ -24,9 +24,19 @@ const Hero = () => {
       </div>
 
       {/* Background with consistent color */}
-      <div className="absolute top-0 left-0 h-full w-full flex items-center justify-center bg-black-100">
-        <div className="absolute inset-0 pointer-events-none flex items-center justify-center bg-black-100 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
-      </div>
+      <div className="absolute top-0 left-0 h-full w-full flex items-center justify-center bg-black">
+  <div className="absolute inset-0 flex items-center justify-center bg-black opacity-30">
+    {/* Optional: Add a radial gradient */}
+    <div
+      className="absolute inset-0 bg-gradient-to-br from-transparent via-black to-black"
+      style={{
+        // Optional: You can adjust the gradient to fit your design
+        background: 'radial-gradient(ellipse at center, transparent 20%, black)',
+      }}
+    ></div>
+  </div>
+</div>
+
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center">
