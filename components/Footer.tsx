@@ -18,16 +18,14 @@ const Footer = () => {
 
       <div className="flex flex-col items-center relative z-10">
         <h1 className="text-white heading lg:max-w-[45vw] text-center">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+          Let's <span className="text-purple">Connect</span> & Make An Impact
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
+        You don't lose when you get knocked down, you lose when you stay down.
         </p>
         <a href="mailto:reivax.caasi@gmail.com?subject=Job%20Opportunity%20Inquiry&body=Dear%20Isaac%20Xavier%2C%0D%0A%0D%0AI%20came%20across%20your%20portfolio%20and%20was%20impressed%20by%20your%20work.%20I'm%20recruiting%20for%20a%20role%20at%20%5BCompany%20Name%5D%20that%20aligns%20with%20your%20skills%20and%20experience.%0D%0A%0D%0AInterested%20in%20learning%20more%3F%20Let's%20chat.%0D%0A%0D%0ARespectfully%2C%0D%0A%5BYour%20Name%5D">
           <MagicButton
-            title="Let's get in touch"
+            title="Connect"
             icon={<AiOutlineMail/>}
             position="right"
           />

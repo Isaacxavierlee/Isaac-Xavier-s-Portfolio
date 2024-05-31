@@ -41,7 +41,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center">
         <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-          Dynamic Web Magic with Next.js
+          Portfolio Crafted with Next.js
         </p>
 
         <TextGenerateEffect
@@ -50,11 +50,11 @@ const Hero = () => {
         />
 
 <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-white">
-  Hi! I&apos;m Isaac Xavier, welcome to my developer portfolio.
+  Hi! I&apos;m Isaac Xavier, welcome to my Developer Portfolio.
 </p>
 
         
-        <a href="#about">
+        <a href="#projects">
           <MagicButton
             title="View My Projects"
             icon={<FaCode />}

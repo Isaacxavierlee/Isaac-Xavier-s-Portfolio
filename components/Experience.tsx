@@ -4,7 +4,7 @@ import { Button } from './MovingBorders';
 
 function Experience() {
     return (
-        <div className="py-20 px-4" id="testimonials">
+        <div className="py-20 px-4">
             <h1 className="heading text-white text-center mb-10">
                 Work <span className="text-purple">Experiences</span>
             </h1>
