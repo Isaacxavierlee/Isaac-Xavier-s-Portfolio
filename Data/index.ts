@@ -107,15 +107,15 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Working with Isaac Xavier was a pleasure. During his six-month internship at Molex Singapore, Isaac showed great responsibility, urgency, and a positive attitude. His quick mastery of advanced testing equipment and consistent delivery of high-quality results were impressive. Isaac's eagerness to learn and independent work ethic make him a standout in his field. I highly recommend him for any future endeavors.",
+      name: "Wee Teck, Chua",
+      title: "Director of Signal Integrity, Molex",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Isaac Xavier interned in Molex Singapore’s Signal Integrity Department under my supervision. He quickly mastered lab measurements using high-end equipment and supported administrative tasks. Isaac’s eagerness to learn, meticulous note-taking, logical mindset, and methodical approach were evident throughout his tenure. His relentless pursuit of knowledge and strong work ethic enabled him to deliver timely engineering solutions. Isaac is a dependable team player who adheres to company policies and principles. I am confident in his potential for success in Machine Learning, AI, and Computer Science.",
+      name: "Chew Chee Kit",
+      title: "Signal Integrity Team Leader, Molex",
     },
     {
       quote:

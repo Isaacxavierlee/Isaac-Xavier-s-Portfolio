@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { cn } from "@/utils/cn";
 
 export const InfiniteMovingCards = ({
@@ -14,15 +14,15 @@ export const InfiniteMovingCards = ({
     quote: string;
     name: string;
     title: string;
-    image?: string; // Adding an image property for each item
+    image?: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
   pauseOnHover?: boolean;
   className?: string;
 }) => {
-  const containerRef = React.useRef<HTMLDivElement>(null);
-  const scrollerRef = React.useRef<HTMLUListElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const scrollerRef = useRef<HTMLUListElement>(null);
   const [start, setStart] = useState(false);
 
   useEffect(() => {
@@ -82,8 +82,8 @@ export const InfiniteMovingCards = ({
             key={idx}
             className="w-[90vw] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-800 p-5 md:p-16 md:w-[60vw]"
             style={{
-              background:
-                "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+              background: "rgb(4,7,29)",
+              background: "linear-gradient(180deg, var(--slate-800), var(--slate-900))",
             }}
           >
             <blockquote>
@@ -95,23 +95,17 @@ export const InfiniteMovingCards = ({
                 {item.quote}
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
-                {item.image && (
-                  <div className="me-3">
-                    <img
-                      src={item.image}
-                      alt="profile"
-                      className="w-10 h-10 rounded-full"
-                    />
-                  </div>
-                )}
-                <span className="flex flex-col gap-1">
+                <div className="me-3">
+                  <img src="/profile.svg" alt="profile" />
+                </div>
+                <div className="flex flex-col gap-1">
                   <span className="text-xl font-bold leading-[1.6] text-white">
                     {item.name}
                   </span>
                   <span className="text-sm leading-[1.6] text-white-200 font-normal">
                     {item.title}
                   </span>
-                </span>
+                </div>
               </div>
             </blockquote>
           </li>
