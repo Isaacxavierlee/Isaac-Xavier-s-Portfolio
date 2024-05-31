@@ -173,29 +173,29 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Admistrative Assistant",
+      desc: "Proficient in crafting precise Excel templates, orchestrating efficient data organization, and spearheading the development of innovative projects using JavaScript and VBA. Skilled in delivering impactful PowerPoint presentations and adept at optimizing data management processes.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Signal Integrity Assistant Engineer",
+      desc: "Collaborated closely with clients on high-speed serial I/O and various applications, offering expertise in measurement, simulation, and report creation to support Signal Integrity engineers.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Quality Assurance Intern",
+      desc: "Developed automation projects to streamline tasks, implemented efficient data collection and analysis methods, and ensured rigorous process control. Recognized as a top intern, I received a full-time position based on outstanding performance, with endorsement from the Director of the Datacom & Solutions department.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Crowd Control",
+      desc: "Exercised managerial oversight in supervising QR code scanning, crowd management, and facilitating orderly stall access, while effectively communicating with customers and team members.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
