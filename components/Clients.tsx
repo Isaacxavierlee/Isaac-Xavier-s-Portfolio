@@ -1,12 +1,13 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
-import { InfiniteMovingCards } from './ui/infiniteMovingCards';
+import { InfiniteMovingCards } from './ui/InfiniteMovingCards';
 import { companies, testimonials } from '@/Data';
 
 const Clients = () => {
   return (
     <div className="py-20 px-4" id="testimonials">
       <h1 className="heading text-white text-center mb-10">
-        Isaac's <span className="text-purple">Testimonial</span>
+        Isaac&apos;s <span className="text-purple">Testimonial</span>
       </h1>
       <div className="flex flex-col items-center max-lg:mt-10">
         {/* Client testimonials will go here */}
