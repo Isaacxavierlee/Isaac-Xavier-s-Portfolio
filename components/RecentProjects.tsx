@@ -14,8 +14,8 @@ const RecentProjects = () => {
           <div key={id} className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw] text-white">
             <PinContainer title={title} href={link}>
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
-                <div className="relative w-full h-full overflow-hidden lg:rounded-3xl" style={{ backgroundColor: "#13162D" }}>
-                  <img src="/bg.png" alt="Background" />
+                <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-gradient-to-br from-transparent to-black" style={{ backgroundColor: "#13162D" }}>
+                  <img src="/bg.png" alt="Background" className="absolute inset-0 w-full h-full object-cover" />
                 </div>
                 <img src={img} alt="Cover" className="z-10 absolute bottom-0" />
               </div>
@@ -49,4 +49,3 @@ const RecentProjects = () => {
 };
 
 export default RecentProjects;
-
