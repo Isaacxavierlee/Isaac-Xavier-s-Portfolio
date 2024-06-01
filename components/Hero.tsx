@@ -46,7 +46,7 @@ const Hero = () => {
           Hi! I&apos;m Isaac Xavier, welcome to my Developer Portfolio.
         </p>
 
-        <a href="#projects" className="mt-4">
+        <a href="#projects">
           <MagicButton
             title="View My Projects"
             icon={<FaCode />}
