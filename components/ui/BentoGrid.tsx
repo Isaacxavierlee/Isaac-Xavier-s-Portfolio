@@ -136,13 +136,7 @@ export const BentoGridItem = ({
               rendererSettings: { preserveAspectRatio: 'xMidYMid slice' }
             }} />
           </div>
-          <MagicButton
-            title={copied ? "Email is Copied!" : "Copy my email address"}
-            icon={<IoCopyOutline />}
-            position="center" // Adjusted button position to center
-            handleClick={handleCopy}
-            otherClasses="!bg-[#161A31] py-2 px-4 md:py-3 md:px-6 text-sm md:text-base" // Adjusted button size for smaller screens
-          />
+          
         </div>
       )}
     </div>
