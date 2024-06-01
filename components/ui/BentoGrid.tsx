@@ -103,22 +103,25 @@ export const BentoGridItem = ({
   
       {/* Tech Stack */}
       {id === 3 && (
-        <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2" style={{ marginRight: "1rem" }}>
+        <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
           {/* Left Tech Stack List */}
           <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
             {leftLists.map((item, index) => (
-              <span key={index} className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E] text-white">
+              <span key={index} className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+              lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                 {item}
               </span>
             ))}
-            <span className='py-4 px-3 rounded-lg text-center bg-[#10132E]' />
+            <span className='lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+                    lg:opacity-100 rounded-lg text-center bg-[#10132E]' />
           </div>
   
           {/* Right Tech Stack List */}
           <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-            <span className='py-4 px-3 rounded-lg text-center bg-[#10132E]' />
+            <span className='lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]' />
             {rightLists.map((item, index) => (
-              <span key={index} className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E] text-white">
+              <span key={index} className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+              lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                 {item}
               </span>
             ))}
@@ -127,7 +130,7 @@ export const BentoGridItem = ({
       )}
   
       {id === 6 && (
-        <div className='mt-5 relative flex justify-center'> {/* Adjusted to center the button */}
+        <div className='mt-5 relative'> {/* Adjusted to center the button */}
           <div className={`absolute ${copied ? "-bottom-5" : ""} right-0 ${copied ? "block" : "block"}`}>
             <Lottie options={{
               loop: copied,
@@ -136,13 +139,7 @@ export const BentoGridItem = ({
               rendererSettings: { preserveAspectRatio: 'xMidYMid slice' }
             }} />
           </div>
-          <MagicButton
-            title={copied ? "Email is Copied!" : "Copy my email address"}
-            icon={<IoCopyOutline />}
-            position="center" // Adjusted button position to center
-            handleClick={handleCopy}
-            otherClasses="!bg-[#161A31] py-2 px-4 md:py-3 md:px-6 text-sm md:text-base" // Adjusted button size for smaller screens
-          />
+          
         </div>
       )}
     </div>
