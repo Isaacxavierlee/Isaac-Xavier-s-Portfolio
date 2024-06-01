@@ -6,67 +6,7 @@ export const navItems = [
   ];
   
   export const gridItems = [
-    {
-      id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
-      description: "",
-      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-      imgClassName: "w-full h-full",
-      titleClassName: "justify-end",
-      img: "/b1.svg",
-      spareImg: "",
-    },
-    {
-      id: 2,
-      title: "Arise",
-      description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-      imgClassName: "",
-      titleClassName: "justify-start",
-      img: "",
-      spareImg: "",
-    },
-    {
-      id: 3,
-      title: "My Tech Stack",
-      description: "I constantly try to improve",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-      imgClassName: "",
-      titleClassName: "justify-center",
-      img: "",
-      spareImg: "",
-    },
-    {
-      id: 4,
-      title: "Tech enthusiast with a passion for development.",
-      description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-      imgClassName: "",
-      titleClassName: "justify-start",
-      img: "/grid.svg",
-      spareImg: "/b4.svg",
-    },
-  
-    {
-      id: 5,
-      title: "Currently building a CrowdFunding Application for Startups.",
-      description: "The Inside Scoop",
-      className: "md:col-span-3 md:row-span-2",
-      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-      titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/b5.svg",
-      spareImg: "/grid.svg",
-    },
-    {
-      id: 6,
-      title: "Let's start a project together!",
-      description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-      imgClassName: "",
-      titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-      img: "",
-      spareImg: "",
-    },
+    
   ];
   
   export const projects = [
@@ -111,18 +51,21 @@ export const navItems = [
         "Working with Isaac Xavier was a pleasure. During his six-month internship at Molex Singapore, Isaac showed great responsibility, urgency, and a positive attitude. His quick mastery of advanced testing equipment and consistent delivery of high-quality results were impressive. Isaac's eagerness to learn and independent work ethic make him a standout in his field. I highly recommend him for any future endeavors.",
       name: "Wee Teck, Chua",
       title: "Director of Signal Integrity, Molex",
+      image: "/profile1.jpg", // Add image for the first testimonial
     },
     {
       quote:
         "Isaac Xavier interned in Molex Singapore’s Signal Integrity Department under my supervision. He quickly mastered lab measurements using high-end equipment and supported administrative tasks. Isaac’s eagerness to learn, meticulous note-taking, logical mindset, and methodical approach were evident throughout his tenure. His relentless pursuit of knowledge and strong work ethic enabled him to deliver timely engineering solutions. Isaac is a dependable team player who adheres to company policies and principles. I am confident in his potential for success in Machine Learning, AI, and Computer Science.",
       name: "Chew Chee Kit",
       title: "Signal Integrity Team Leader, Molex",
+      image: "/profile1.jpg", // Add image for the first testimonial
     },
     {
       quote:
         "Isaac Xavier's tenure at Lynx Company saw him excel as both a Supply Assistant and Administrative Support Assistant, where he adeptly managed daily Parade State submissions, compiled cadet course results, and provided invaluable administrative aid. Demonstrating exceptional independence and teamwork, Isaac consistently delivered high-quality work, even under tight deadlines. His positive attitude and commitment make him an indispensable asset to any team, ensuring continued success in his future endeavors.",
       name: "Richard Morgan Samuel",
       title: "2nd In Command of Lynx Company, SAF SCS III",
+      image: "/profile1.jpg", // Add image for the first testimonial
     },
 
   ];
