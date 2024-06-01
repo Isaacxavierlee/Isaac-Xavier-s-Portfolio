@@ -7,17 +7,10 @@ import { socialMedia } from '@/Data';
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-10 relative" id="contact">
+    <footer className="w-full pb-10 mb-[100px]
+    md:mb-5"
+     id="contact">
       {/* Background grid */}
-      <div className="w-full absolute left-0 -bottom-72 min-h-96">
-        <Image
-          src="/footer-grid.svg"
-          alt="grid"
-          layout="fill"
-          objectFit="cover"
-          className="opacity-50"
-        />
-      </div>
 
       <div className="flex flex-col items-center relative z-10">
         <h1 className="text-white heading lg:max-w-[45vw] text-center">
