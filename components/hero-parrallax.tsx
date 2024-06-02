@@ -103,19 +103,22 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className="max-w-7xl relative mx-auto py-10 md:py-16 px-4 w-full left-0 top-0 flex flex-col items-center justify-center">
-      <h1 className="text-base md:text-4xl lg:text-6xl font-bold dark:text-white leading-tight md:leading-normal text-center">
-        The Ultimate development studio
-      </h1>
-      <p className="max-w-xl md:max-w-3xl text-sm md:text-base mt-4 md:mt-6 dark:text-neutral-200 text-center">
-        Building beautiful products with the latest technologies and frameworks.
-      </p>
-      <p className="max-w-xl md:max-w-3xl text-sm md:text-base mt-2 dark:text-neutral-200 text-center">
-        Passionate developer that love to build amazing products.
-      </p>
+    <div className="w-full py-16 sm:py-20 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white">
+      <div className="max-w-7xl relative mx-auto px-4 flex flex-col items-center justify-center">
+        <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-6xl font-bold leading-tight text-center">
+          The Ultimate Development Studio
+        </h1>
+        <p className="max-w-md sm:max-w-xl md:max-w-3xl text-xs sm:text-sm md:text-base mt-2 sm:mt-4 md:mt-6 text-center">
+          Building beautiful products with the latest technologies and frameworks.
+        </p>
+        <p className="max-w-md sm:max-w-xl md:max-w-3xl text-xs sm:text-sm md:text-base mt-2 text-center">
+          Passionate developers who love to create amazing products.
+        </p>
+      </div>
     </div>
   );
 };
+
 
 
 
