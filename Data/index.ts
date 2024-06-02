@@ -6,8 +6,39 @@ export const navItems = [
   ];
   
   export const gridItems = [
-    
+    {
+      title: "Revolutionize Your Business with Our Services",
+      link: "#",
+      thumbnail: "/service1.svg",
+    },
+    {
+      title: "Elevate Your Online Presence with Cutting-Edge Solutions",
+      link: "#",
+      thumbnail: "/service2.svg",
+    },
+    {
+      title: "Transform Your Ideas into Reality with Our Expertise",
+      link: "#",
+      thumbnail: "/service3.svg",
+    },
+    {
+      title: "Boost Your Productivity with Our Innovative Solutions",
+      link: "#",
+      thumbnail: "/service4.svg",
+    },
+    {
+      title: "Stay Ahead of the Competition with Our Strategic Approach",
+      link: "#",
+      thumbnail: "/service5.svg",
+    },
+    {
+      title: "Take Your Business to New Heights with Our Proven Strategies",
+      link: "#",
+      thumbnail: "/service6.svg",
+    },
   ];
+  
+  
   
   export const projects = [
   {
