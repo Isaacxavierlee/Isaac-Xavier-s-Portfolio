@@ -1,7 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import { InfiniteMovingCards } from './ui/InfiniteMovingCards';
-import { companies, testimonials } from '@/Data';
+import { testimonials, companies } from '@/Data'; // Import testimonials data
 
 const Clients = () => {
   return (
@@ -10,7 +9,7 @@ const Clients = () => {
         Isaac&apos;s <span className="text-purple">Testimonial</span>
       </h1>
       <div className="flex flex-col items-center max-lg:mt-10">
-        {/* Client testimonials will go here */}
+        {/* Pass testimonials data to InfiniteMovingCards */}
         <InfiniteMovingCards
           items={testimonials}
           direction="right"
