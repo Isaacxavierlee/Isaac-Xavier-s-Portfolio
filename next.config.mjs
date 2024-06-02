@@ -5,9 +5,8 @@ const nextConfig = {
         ignoreBuildErrors: true,
     },
     images: {
-        domains: ['aceternity.com'], // Add your image host domain here
-      },
-
+        domains: ['aceternity.com', 'unsplash.com'], // Add 'unsplash.com' to allow access to images from Unsplash
+    },
 };
 
   
