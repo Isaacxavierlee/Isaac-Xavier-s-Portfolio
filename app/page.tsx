@@ -9,6 +9,7 @@ import Experience from "@/components/Experience";
 import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
 import About from "@/components/About";
+import Story from "@/components/Story";
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
           navItems={navItems}
         />
         <Hero />
-        <About />
+        <Story />
         <RecentProjects />
         <Clients />
         <Experience/>

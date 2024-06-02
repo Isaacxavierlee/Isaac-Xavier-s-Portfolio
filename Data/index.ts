@@ -4,41 +4,7 @@ export const navItems = [
     { name: "Testimonials", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
   ];
-  
-  export const gridItems = [
-    {
-      title: "Revolutionize Your Business with Our Services",
-      link: "#",
-      thumbnail: "/service1.svg",
-    },
-    {
-      title: "Elevate Your Online Presence with Cutting-Edge Solutions",
-      link: "#",
-      thumbnail: "/service2.svg",
-    },
-    {
-      title: "Transform Your Ideas into Reality with Our Expertise",
-      link: "#",
-      thumbnail: "/service3.svg",
-    },
-    {
-      title: "Boost Your Productivity with Our Innovative Solutions",
-      link: "#",
-      thumbnail: "/service4.svg",
-    },
-    {
-      title: "Stay Ahead of the Competition with Our Strategic Approach",
-      link: "#",
-      thumbnail: "/service5.svg",
-    },
-    {
-      title: "Take Your Business to New Heights with Our Proven Strategies",
-      link: "#",
-      thumbnail: "/service6.svg",
-    },
-  ];
-  
-  
+   
   
   export const projects = [
   {
@@ -145,13 +111,49 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/Isaacxavierlee",
     },
     {
       id: 2,
       img: "/telegram.svg",
+      link: "https://t.me/Katrina_Benett_bot",
     },
     {
       id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/isaac-xavier-lee-01a1a71b4/",
     },
   ];
+
+  // export const gridItems = [
+//     {
+//       title: "Revolutionize Your Business with Our Services",
+//       link: "#",
+//       thumbnail: "/service1.svg",
+//     },
+//     {
+//       title: "Elevate Your Online Presence with Cutting-Edge Solutions",
+//       link: "#",
+//       thumbnail: "/service2.svg",
+//     },
+//     {
+//       title: "Transform Your Ideas into Reality with Our Expertise",
+//       link: "#",
+//       thumbnail: "/service3.svg",
+//     },
+//     {
+//       title: "Boost Your Productivity with Our Innovative Solutions",
+//       link: "#",
+//       thumbnail: "/service4.svg",
+//     },
+//     {
+//       title: "Stay Ahead of the Competition with Our Strategic Approach",
+//       link: "#",
+//       thumbnail: "/service5.svg",
+//     },
+//     {
+//       title: "Take Your Business to New Heights with Our Proven Strategies",
+//       link: "#",
+//       thumbnail: "/service6.svg",
+//     },
+// ];
