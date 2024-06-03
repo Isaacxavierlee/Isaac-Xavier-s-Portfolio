@@ -10,6 +10,7 @@ import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
 import About from "@/components/About";
 import Story from "@/components/Story";
+import Timeline from "@/components/Timeline";
 
 export default function Home() {
   return (
