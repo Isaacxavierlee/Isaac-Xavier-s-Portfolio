@@ -34,7 +34,7 @@ export const navItems = [
   {
     id: 4,
     title: "First Portfolio",
-    des: "Discover my pioneering tech portfolio, a self-taught and initiated endeavor highlighting innovative projects and skills.",
+    des: "Discover my first Tech portfolio, highlighting innovative projects and skills.",
     img: "/1st-portfolio.png",
     iconLists: ["/html.svg", "/css.svg", "/javascript.svg", "/netlify.svg", "/emailjs.svg"],
     link: "https://isaacxavier-portfolio.netlify.app/",
@@ -54,12 +54,12 @@ export const navItems = [
       quote:
         "Isaac Xavier interned in Molex Singapore’s Signal Integrity Department under my supervision. He quickly mastered lab measurements using high-end equipment and supported administrative tasks. Isaac’s eagerness to learn, meticulous note-taking, logical mindset, and methodical approach were evident throughout his tenure. His relentless pursuit of knowledge and strong work ethic enabled him to deliver timely engineering solutions. Isaac is a dependable team player who adheres to company policies and principles. I am confident in his potential for success in Machine Learning, AI, and Computer Science.",
       name: "Chew Chee Kit",
-      title: "Signal Integrity Team Leader, Molex",
+      title: "Signal Integrity Manager, Molex",
       image: "/CheeKit.png", // Add image for the first testimonial
     },
     {
       quote:
-        "Isaac Xavier's tenure at Lynx Company saw him excel as both a Supply Assistant and Administrative Support Assistant, where he adeptly managed daily Parade State submissions, compiled cadet course results, and provided invaluable administrative aid. Demonstrating exceptional independence and teamwork, Isaac consistently delivered high-quality work, even under tight deadlines. His positive attitude and commitment make him an indispensable asset to any team, ensuring continued success in his future endeavors.",
+        "Isaac Xavier's tenure at Lynx Company was marked by outstanding performance in roles as both a Supply Assistant and Administrative Support Assistant. During his time there, Isaac demonstrated exceptional proficiency in managing daily Parade State submissions, compiling cadet course results, and offering invaluable administrative support. Notably, he exhibited a remarkable blend of independence and teamwork, consistently delivering high-quality work even when faced with tight deadlines. Isaac's positive attitude and unwavering commitment make him an indispensable asset to any team, ensuring continued success in all his future endeavors",
       name: "Richard Morgan Samuel",
       title: "2nd In Command of Lynx Company, SAF SCS III",
       image: "/2ic.png", // Add image for the first testimonial

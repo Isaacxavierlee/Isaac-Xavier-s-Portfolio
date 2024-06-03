@@ -5,24 +5,24 @@ import { HeroParallax } from "@/components/hero-parrallax"; // Adjust the path a
 // Define the products array
 export const products = [
     {
-      title: "Moonbeam",
-      link: "https://gomoonbeam.com",
-      thumbnail: "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+      title: "Ixtravel Webpage",
+      link: "https://ixtravel.netlify.app/",
+      thumbnail: "/ixtravel.png",
     },
     {
-      title: "Cursor",
-      link: "https://cursor.so",
-      thumbnail: "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+      title: "Tasty X's Webpage",
+      link: "https://tastyx.netlify.app/",
+      thumbnail: "/tastyx's.png",
     },
     {
-      title: "Rogue",
-      link: "https://userogue.com",
-      thumbnail: "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+      title: "Quckie Delivery Webpage",
+      link: "https://xquickiex.netlify.app/",
+      thumbnail: "/quickie.png",
     },
     {
-      title: "Editorially",
-      link: "https://editorially.org",
-      thumbnail: "https://aceternity.com/images/products/thumbnails/new/editorially.png",
+      title: "Haloween Webpage",
+      link: "https://ixlhaloween.netlify.app/",
+      thumbnail: "/haloween.png",
     },
     {
       title: "Editrix AI",

@@ -6,7 +6,7 @@ const Clients = () => {
   return (
     <div className="py-20 px-4" id="testimonials">
       <h1 className="heading text-white text-center mb-10">
-        Isaac&apos;s <span className="text-purple">Testimonial</span>
+        My<span className="text-purple"> Testimonials</span>
       </h1>
       <div className="flex flex-col items-center max-lg:mt-10">
         {/* Pass testimonials data to InfiniteMovingCards */}
