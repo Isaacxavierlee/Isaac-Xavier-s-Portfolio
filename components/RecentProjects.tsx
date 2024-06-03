@@ -17,7 +17,7 @@ const RecentProjects = () => {
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-gradient-to-br from-transparent to-black" style={{ backgroundColor: "#13162D" }}>
                   <img src="/bg.png" alt="Background" className="absolute inset-0 w-full h-full object-cover" />
                 </div>
-                <img src={img} alt="Cover" className="z-10 absolute bottom-0" />
+                <img src={img} alt="Cover" className="z-10 absolute inset-0 w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity duration-300" />
               </div>
 
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">{title}</h1>
