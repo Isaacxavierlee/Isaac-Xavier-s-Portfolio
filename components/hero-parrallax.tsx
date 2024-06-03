@@ -112,7 +112,7 @@ export const Header = () => {
           Building beautiful products with the latest technologies and frameworks.
         </p>
         <p className="max-w-xs xs:max-w-sm sm:max-w-xl md:max-w-3xl text-xs xs:text-sm md:text-base mt-1 xs:mt-2 sm:mt-4 text-center">
-          Passionate developers who love to create amazing products.
+          Passionate developer who love to create amazing products.
         </p>
       </div>
     </div>
