@@ -48,21 +48,21 @@ export const navItems = [
         "Working with Isaac Xavier was a pleasure. During his six-month internship at Molex Singapore, Isaac showed great responsibility, urgency, and a positive attitude. His quick mastery of advanced testing equipment and consistent delivery of high-quality results were impressive. Isaac's eagerness to learn and independent work ethic make him a standout in his field. I highly recommend him for any future endeavors.",
       name: "Wee Teck, Chua",
       title: "Director of Signal Integrity, Molex",
-      image: "/app.svg", // Add image for the first testimonial
+      image: "/Molex-Director.jpg", // Add image for the first testimonial
     },
     {
       quote:
         "Isaac Xavier interned in Molex Singapore’s Signal Integrity Department under my supervision. He quickly mastered lab measurements using high-end equipment and supported administrative tasks. Isaac’s eagerness to learn, meticulous note-taking, logical mindset, and methodical approach were evident throughout his tenure. His relentless pursuit of knowledge and strong work ethic enabled him to deliver timely engineering solutions. Isaac is a dependable team player who adheres to company policies and principles. I am confident in his potential for success in Machine Learning, AI, and Computer Science.",
       name: "Chew Chee Kit",
       title: "Signal Integrity Team Leader, Molex",
-      image: "/app.svg", // Add image for the first testimonial
+      image: "/CheeKit.png", // Add image for the first testimonial
     },
     {
       quote:
         "Isaac Xavier's tenure at Lynx Company saw him excel as both a Supply Assistant and Administrative Support Assistant, where he adeptly managed daily Parade State submissions, compiled cadet course results, and provided invaluable administrative aid. Demonstrating exceptional independence and teamwork, Isaac consistently delivered high-quality work, even under tight deadlines. His positive attitude and commitment make him an indispensable asset to any team, ensuring continued success in his future endeavors.",
       name: "Richard Morgan Samuel",
       title: "2nd In Command of Lynx Company, SAF SCS III",
-      image: "/app.svg", // Add image for the first testimonial
+      image: "/2ic.png", // Add image for the first testimonial
     },
 
   ];
