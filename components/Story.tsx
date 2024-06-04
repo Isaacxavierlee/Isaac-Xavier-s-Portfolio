@@ -90,7 +90,7 @@ export const products = [
     return (
       <section className="w-full py-20" id="about">
         <h1 className="heading text-white text-center mb-10">
-          Explore My<span className="text-purple"> Developments</span>
+           Explore My <span className="text-purple"> Craftmanships</span>
         </h1>
   
         <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
