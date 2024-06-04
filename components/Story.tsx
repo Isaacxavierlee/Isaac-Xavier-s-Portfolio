@@ -35,9 +35,9 @@ export const products = [
       thumbnail: "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
     },
     {
-      title: "Algochurn",
-      link: "https://algochurn.com",
-      thumbnail: "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+      title: "Music Beats Webpage",
+      link: "https://mbeats.netlify.app/",
+      thumbnail: "/musicbeats.png",
     },
     {
       title: "Aceternity UI",
