@@ -11,7 +11,7 @@ const RecentProjects = () => {
       </h1>
       <div className="flex flex-wrap justify-center gap-12 sm:gap-20 p-4">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
-          <div key={id} className="project-card lg:min-h-[32.5rem] h-[25rem] w-full sm:w-96 mb-12 sm:mb-16 flex items-center justify-center text-white">
+          <div key={id} className="project-card lg:min-h-[32.5rem] h-[25rem] w-full sm:w-96 mb-20 sm:mb-24 flex items-center justify-center text-white"> {/* Increased mb values */}
             <PinContainer title={title} href={link}>
               <div className="image-container relative w-full h-72 sm:h-[30vh] overflow-hidden rounded-t-3xl">
                 <div className="bg-gradient-to-br from-transparent to-black absolute inset-0 lg:rounded-3xl" style={{ backgroundColor: "#13162D" }}>
