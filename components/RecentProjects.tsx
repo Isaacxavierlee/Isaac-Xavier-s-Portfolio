@@ -9,9 +9,9 @@ const RecentProjects = () => {
       <h1 className="heading text-white text-center mb-8">
         Latest Project <span className="text-purple">Insights</span>
       </h1>
-      <div className="flex flex-wrap justify-center gap-8 sm:gap-16 p-4">
+      <div className="flex flex-wrap justify-center gap-16 sm:gap-24 p-4">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
-          <div key={id} className="project-card lg:min-h-[32.5rem] h-[25rem] w-full sm:w-96 mb-8 flex items-center justify-center text-white">
+          <div key={id} className="project-card lg:min-h-[32.5rem] h-[25rem] w-full sm:w-96 mb-16 flex items-center justify-center text-white">
             <PinContainer title={title} href={link}>
               <div className="image-container relative w-full h-72 sm:h-[30vh] overflow-hidden rounded-t-3xl">
                 <div className="bg-gradient-to-br from-transparent to-black absolute inset-0 lg:rounded-3xl" style={{ backgroundColor: "#13162D" }}>
