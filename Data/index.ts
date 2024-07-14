@@ -7,8 +7,16 @@ export const navItems = [
    
   
   export const projects = [
+    {
+      id: 1,
+      title: "Apple Webpage",
+      des: "Replicates Apple webpage using React.js for dynamic interface.",
+      img: "/explore1.jpg",
+      iconLists: ["/react.svg", "/tail.svg", "/javascript.svg", "/netlify.svg", "/emailjs.svg"],
+      link: "https://ixlapple.netlify.app/",
+    },
   {
-    id: 1,
+    id: 2,
     title: "Ms.Faithtistry Webpage",
     des: "Discover luxury lash enhancements at Ms. Faithtistry — a blend of elegance and expertise.",
     img: "/msfaith.png",
@@ -16,23 +24,23 @@ export const navItems = [
     link: "https://msfaithtistry.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Article Summarizer OpenAI",
-    des: "Effortlessly summarize any article with my AI-powered tool, perfect for researchers, students, and readers alike.",
+    des: "Summarize any article with my AI-powered tool, perfect for researchers, students, and readers.",
     img: "/ASA.png",
     iconLists: ["/react.svg", "/tail.svg", "/javascript.svg", "/rapidapi.svg", "/netlify.svg"],
     link: "https://articlesummifyapp.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "University Webpage",
-    des: "Discover a modern university webpage designed for seamless navigation and access to essential information.",
+    des: "Explore a modern university webpage for easy navigation and essential information access.",
     img: "/Uni.png",
     iconLists: ["/html.svg", "/css.svg", "/javascript.svg", "/netlify.svg", "/emailjs.svg"],
     link: "https://ixlunipage.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "First Portfolio",
     des: "Discover my first Tech portfolio, highlighting innovative projects and skills.",
     img: "/1st-portfolio.png",

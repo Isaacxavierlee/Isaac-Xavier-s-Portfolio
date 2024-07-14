@@ -7,7 +7,7 @@ const World = dynamic(() => import("./Globe").then((m) => m.World), {
   ssr: false,
 });
 
-export function GlobeDemo() {
+const GridGlobe = () => {
   const globeConfig = {
     pointSize: 4,
     globeColor: "#062056",
@@ -399,7 +399,7 @@ export function GlobeDemo() {
     // change absolute -left-5 top-36, add w-full h-full md:top-40
     <div className="flex items-center justify-center absolute -left-5 top-36 md:top-40 w-full h-full">
       {/* remove h-full md:h-[40rem] */}
-      <div className="max-w-7xl mx-auto w-full relative overflow-hidden px-4 h-96">
+      <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-96 px-4">
         {/* remove these text divs */}
         {/* <motion.div
           initial={{
@@ -431,4 +431,5 @@ export function GlobeDemo() {
       </div>
     </div>
   );
-}
+};
+export default GridGlobe;
